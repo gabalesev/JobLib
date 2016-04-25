@@ -1,4 +1,5 @@
 ﻿using JobLib;
+using System;
 
 namespace TestUnit1
 {
@@ -6,11 +7,11 @@ namespace TestUnit1
     {
         static void Main(string[] args)
         {
-            JobLogger.Initialize(true, true, false, EnumLogLevel.Warning);
+            JobLogger.Initialize(true, true, false, EnumLogLevel.Message);
 
             JobLogger.LogMessage("Off", EnumLogLevel.Off);
 
-            JobLogger.LogMessage("Mensaje 1", EnumLogLevel.Message);
+            JobLogger.LogMessage("Mensaje 2", EnumLogLevel.Message);
 
             JobLogger.LogMessage("Warning 1", EnumLogLevel.Warning);
 
