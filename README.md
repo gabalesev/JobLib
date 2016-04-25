@@ -1,4 +1,4 @@
-# JobLib
+# JobLib Code Review
 
 1) In a quick review, the code shows the following errors:
   - The code doesn't catch and throw possibles exceptions in LogMessage().
@@ -16,3 +16,5 @@
   level also allow disable logging.
   - Use StringBuilder for memory performance.
   - Add time to logging for best registry
+
+2) Code with comments and test units
