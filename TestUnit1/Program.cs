@@ -9,6 +9,7 @@ namespace TestUnit1
         {
             JobLogger.Initialize(true, true, false, EnumLogLevel.Message);
 
+            JobLogger jb = new JobLogger();
             JobLogger.LogMessage("Off", EnumLogLevel.Off);
 
             JobLogger.LogMessage("Mensaje 2", EnumLogLevel.Message);
