@@ -9,7 +9,7 @@
   
   Feedback and best practices:
   
-  - Refactor LogToDatabase to _logToDatabase. Due convention, private fields must be camel case and beggin with '_'.
+  - Refactor "LogToDatabase" to "_logToDatabase". Due convention, private fields must be camel case and beggin with "_".
   - Declare JobLogger class as static to avoid instantiation.
   - Validate if JobLogger is initialized.
   - If message null or empty throw ArgumentException
