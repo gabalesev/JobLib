@@ -8,7 +8,7 @@
   
   Feedback and best practices:
   
-  - Refactor "LogToDatabase" to "(underscore)logToDatabase". Due convention, private fields must be camel case and beggin with underscore.
+  - Refactor "LogToDatabase" to "(underscore)logToDatabase". Due convention, private fields must be camel case and begin with underscore.
   - Declare JobLogger class as static to avoid instantiation.
   - Validate if JobLogger is initialized.
   - If message null or empty throw ArgumentException
